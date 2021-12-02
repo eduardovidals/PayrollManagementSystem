@@ -7,7 +7,7 @@ This project was made for CS306: Database Design. The purpose of this project wa
 ## Setup
 First, clone this repo to get started.
 ```bash
-$ git clone https://github.com/eduardovidals/PayrollManagementSystem.git
+git clone https://github.com/eduardovidals/PayrollManagementSystem.git
 ```
 
 ### Backend
