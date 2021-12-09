@@ -7,6 +7,7 @@ import java.util.Objects;
 
 @Entity
 // unicorn test test
+// this is an employee
 public class Employee {
     private @Id @GeneratedValue Long id;
     private String firstName;
