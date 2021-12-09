@@ -24,5 +24,4 @@ npm start
 
 ## Authors
 - [Eduardo Vidals](https://github.com/eduardovidals)
-
-- Christopher Torres
+- [Christopher Torres](https://github.com/TheChristopherTorres)
