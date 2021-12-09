@@ -6,7 +6,6 @@ import javax.persistence.GeneratedValue;
 import java.util.Objects;
 
 @Entity
-// Unicorn class
 public class Employee {
     private @Id @GeneratedValue Long id;
     private String firstName;
