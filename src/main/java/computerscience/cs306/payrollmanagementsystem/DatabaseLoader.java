@@ -5,6 +5,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 @Component
+// editing loader
 public class DatabaseLoader implements CommandLineRunner {
     private final EmployeeRepository repository;
 
