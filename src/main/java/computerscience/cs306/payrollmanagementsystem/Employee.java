@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import java.util.Objects;
 
 @Entity
+// this is an employee
 public class Employee {
     private @Id @GeneratedValue Long id;
     private String firstName;

@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class DatabaseLoader implements CommandLineRunner {
-
     private final EmployeeRepository repository;
 
     @Autowired
