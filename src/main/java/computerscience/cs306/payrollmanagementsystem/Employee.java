@@ -11,7 +11,7 @@ public class Employee {
     private String firstName;
     private String lastName;
     private String description;
-
+    // this is the constructor
     public Employee() {
 
     }
