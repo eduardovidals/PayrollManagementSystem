@@ -1,0 +1,52 @@
+.employee-row {
+}
+
+.employee-row:hover {
+    cursor: pointer;
+    background-color: #2F9453;
+}
+
+.employee-options:hover {
+    font-size: 20px;
+    color: #0cf862;
+}
+
+.employee-options-popup-wrapper{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+.employee-options-popup {
+    position: absolute;
+    background-color: #3dc06a;
+    border-radius: 10px;
+    overflow: hidden;
+    top: -5px;
+    left: -30px;
+    animation: growDown 350ms ease-in-out forwards;
+    transform-origin: top center;
+}
+
+.employee-option {
+    padding: 10px;
+}
+
+.employee-option:hover {
+    background-color: #43d374;
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+

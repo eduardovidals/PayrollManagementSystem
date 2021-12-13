@@ -5,7 +5,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 @Component
-// editing loader
 public class DatabaseLoader implements CommandLineRunner {
     private final EmployeeRepository repository;
 
@@ -17,5 +16,20 @@ public class DatabaseLoader implements CommandLineRunner {
     @Override
     public void run(String... strings) throws Exception {
         this.repository.save(new Employee("Frodo", "Baggins", "ring bearer"));
+        this.repository.save(new Employee("John", "Smith", "I love cats"));
+        this.repository.save(new Employee("John", "Smith", "I love cats"));
+        this.repository.save(new Employee("John", "Smith", "I love cats"));
+        this.repository.save(new Employee("John", "Smith", "I love cats"));
+        this.repository.save(new Employee("John", "Smith", "I love cats"));
+        this.repository.save(new Employee("John", "Smith", "I love cats"));
+        this.repository.save(new Employee("John", "Smith", "I love cats"));
+        this.repository.save(new Employee("John", "Smith", "I love cats"));
+        this.repository.save(new Employee("John", "Smith", "I love cats"));
+        this.repository.save(new Employee("John", "Smith", "I love cats"));
+        this.repository.save(new Employee("John", "Smith", "I love cats"));
+        this.repository.save(new Employee("John", "Smith", "I love cats"));
+        this.repository.save(new Employee("John", "Smith", "I love cats"));
+        this.repository.save(new Employee("John", "Smith", "I love cats"));
+        this.repository.save(new Employee("John", "Smith", "I love cats"));
     }
 }

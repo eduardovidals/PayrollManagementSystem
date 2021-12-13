@@ -1,35 +1,16 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
-import {EmployeeList} from "./EmployeeList";
-
-type Employee = {
-  firstName: String,
-  lastName: String,
-  description: String,
-  _links: any,
-}
-
+import * as EmployeeServiceApi from "../API/EmployeeService";
+import {Header} from "./Layout/Header/Header";
+import {Main} from "./Layout/Main/Main";
+import {Footer} from "./Layout/Footer/Footer";
 
 function App() {
-  const [employees, setEmployees] = useState<Employee[]>([]);
-  const URL = 'api/employees';
-  useEffect(() => {
-    fetch(URL,
-      {
-        headers: {
-          Accept: "application/json",
-          'Content-Type': 'application/json'
-        }
-      }
-    ).then(r => r.json())
-      .then(r => {
-        setEmployees(r._embedded.employees);
-      });
-  });
-
   return (
-    <div className="App">
-      <EmployeeList employees={employees}/>
+    <div id={"app-wrapper"}>
+      <Header/>
+      <Main/>
+      <Footer/>
     </div>
   );
 }

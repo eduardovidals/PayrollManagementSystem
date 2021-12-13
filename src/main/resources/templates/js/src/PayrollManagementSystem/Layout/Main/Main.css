@@ -1,0 +1,24 @@
+#main {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button {
+    cursor: pointer;
+    background-color: #277c45;
+    color: white;
+    margin: 20px 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #2F9453;
+}
