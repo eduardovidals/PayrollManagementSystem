@@ -1,7 +1,9 @@
 export type Employee = {
-  firstName: String,
-  lastName: String,
-  description: String,
+  firstName: string,
+  lastName: string,
+  description: string,
+  hourlyRate: number,
+  hoursWorked: number,
   _links: {
     self: {
       href: string

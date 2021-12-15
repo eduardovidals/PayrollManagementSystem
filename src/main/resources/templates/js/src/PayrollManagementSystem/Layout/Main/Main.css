@@ -4,6 +4,50 @@
     justify-content: center;
 }
 
+#popup-background {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#add-employee-dialog {
+    position: absolute;
+    background-color: #64c486;
+    border-radius: 10px;
+    cursor: default;
+}
+
+#add-employee-form-wrapper {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+
+#add-employee-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+#add-employee-form > p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+#add-employee-form input {
+    display: flex;
+}
+
 #buttons {
     display: flex;
     flex-direction: row;
@@ -14,11 +58,15 @@
     cursor: pointer;
     background-color: #277c45;
     color: white;
-    margin: 20px 10px;
+    margin: 20px 0 10px 0;
     padding: 10px;
     border-radius: 10px;
+    border: none;
 }
 
 .button:hover {
     background-color: #2F9453;
+}
+
+#create-employee {
 }
